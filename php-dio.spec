@@ -4,7 +4,7 @@
 #
 Name     : php-dio
 Version  : 0.1.0
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net//get/dio-0.1.0.tgz
 Source0  : https://pecl.php.net//get/dio-0.1.0.tgz
 Summary  : No detailed summary available
@@ -26,6 +26,7 @@ lib components for the php-dio package.
 
 %prep
 %setup -q -n dio-0.1.0
+cd %{_builddir}/dio-0.1.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -44,4 +45,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/dio.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/dio.so
