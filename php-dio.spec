@@ -7,7 +7,7 @@
 #
 Name     : php-dio
 Version  : 0.2.1
-Release  : 53
+Release  : 54
 URL      : https://pecl.php.net/get/dio-0.2.1.tgz
 Source0  : https://pecl.php.net/get/dio-0.2.1.tgz
 Summary  : No detailed summary available
